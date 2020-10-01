@@ -4,7 +4,7 @@ from azureml.core.webservice import Webservice
 # Requires the config to be downloaded first to the current working directory
 ws = Workspace.from_config()
 
-# Set with the deployment name
+# Set with the deployment names
 name = ""
 
 # load existing web service
